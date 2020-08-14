@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>opened_by.u_qnd_dias_disponivel</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-12 15:53:58</sys_created_on>
+        <sys_id>2820601a1be21450e4f2ff751a4bcb32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>opened_by.u_qnd_dias_disponivel</sys_name>
+        <sys_package display_value="Ferias" source="x_snc_ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_scope>
+        <sys_update_name>sys_ui_policy_action_2820601a1be21450e4f2ff751a4bcb32</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-12 15:53:58</sys_updated_on>
+        <table>x_snc_ferias_agendamento_de_ferias</table>
+        <ui_policy display_value="Regras de Ferias">91de84dd1ba2dc10ae402f092a4bcb10</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

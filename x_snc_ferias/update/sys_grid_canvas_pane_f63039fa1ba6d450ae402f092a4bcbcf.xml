@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA Calendário - Meu tim - New Tab">2520f5fa1ba6d450ae402f092a4bcb10</grid_canvas>
+        <height>17</height>
+        <portal_widget display_value="Created 2020-08-14 04:00:11">1a3039fa1ba6d450ae402f092a4bcbcc</portal_widget>
+        <posx>0</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-14 11:00:13</sys_created_on>
+        <sys_id>f63039fa1ba6d450ae402f092a4bcbcf</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>2520f5fa1ba6d450ae402f092a4bcb10</sys_name>
+        <sys_package display_value="Ferias" source="x_snc_ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_f63039fa1ba6d450ae402f092a4bcbcf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-14 11:04:23</sys_updated_on>
+        <width>12</width>
+    </sys_grid_canvas_pane>
+</record_update>

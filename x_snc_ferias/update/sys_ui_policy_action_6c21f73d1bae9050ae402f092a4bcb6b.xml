@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_qnd_atestado</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-11 17:50:11</sys_created_on>
+        <sys_id>6c21f73d1bae9050ae402f092a4bcb6b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>u_qnd_atestado</sys_name>
+        <sys_package display_value="Ferias" source="x_snc_ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_scope>
+        <sys_update_name>sys_ui_policy_action_6c21f73d1bae9050ae402f092a4bcb6b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-12 02:12:04</sys_updated_on>
+        <table>x_snc_ferias_agendamento_de_ferias</table>
+        <ui_policy display_value="Regras de Ferias">91de84dd1ba2dc10ae402f092a4bcb10</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

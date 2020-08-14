@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Ferias">24480c951ba2dc10ae402f092a4bcb24</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Open</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_snc_ferias_agendamento_de_ferias</name>
+        <order>30</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>active=true^EQ</query>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-09 11:35:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2c4800d51ba2dc10ae402f092a4bcb0e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Open</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Ferias" source="x_snc_ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_scope>
+        <sys_update_name>sys_app_module_2c4800d51ba2dc10ae402f092a4bcb0e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-11 19:28:28</sys_updated_on>
+        <timeline_page/>
+        <title>Open</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ferias">9a4648d11ba2dc10ae402f092a4bcba6</application>
+        <file_path/>
+        <instance_id>c11447dfdb4ddc147527d7c8f4961993</instance_id>
+        <instance_name>brasil2demo</instance_name>
+        <name>sys_app_module_2c4800d51ba2dc10ae402f092a4bcb0e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Ferias">24480c951ba2dc10ae402f092a4bcb24</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Open</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_snc_ferias_agendamento_de_ferias</name><order>30</order><override_menu_roles>false</override_menu_roles><query>active=true^EQ</query><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-08-09 11:35:04</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2c4800d51ba2dc10ae402f092a4bcb0e</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Open</sys_name><sys_overrides/><sys_package display_value="Ferias" source="x_snc_ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_package><sys_policy/><sys_scope display_value="Ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_scope><sys_update_name>sys_app_module_2c4800d51ba2dc10ae402f092a4bcb0e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-08-11 19:28:28</sys_updated_on><timeline_page/><title>Open</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1232500621</payload_hash>
+        <record_name>Open</record_name>
+        <reverted_from/>
+        <source>924648d11ba2dc10ae402f092a4bcba9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-11 19:28:28</sys_created_on>
+        <sys_id>a6c740ca1b22d050ae402f092a4bcb48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173defed0200000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-11 19:28:28</sys_updated_on>
+        <type>Module</type>
+        <update_guid>6ec740ca0122d050b862fc549649aa47</update_guid>
+        <update_guid_history>6ec740ca0122d050b862fc549649aa47:1232500621,2c4800d524a2dc10209aba682e3b1c0f:84411421</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Open">430234521b661450e4f2ff751a4bcb7b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-12 17:11:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>49fbcc6d8b494205957265cf4ab37099</sys_id>
+        <sys_metadata>2c4800d51ba2dc10ae402f092a4bcb0e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open</sys_name>
+        <sys_package display_value="Ferias" source="x_snc_ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_scope>
+        <sys_scope_delete display_value="">2d9f3b3197094af49687cd6721a99210</sys_scope_delete>
+        <sys_update_name>sys_app_module_2c4800d51ba2dc10ae402f092a4bcb0e</sys_update_name>
+        <sys_update_version display_value="sys_app_module_2c4800d51ba2dc10ae402f092a4bcb0e">a6c740ca1b22d050ae402f092a4bcb48</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-12 17:11:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

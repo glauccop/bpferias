@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Agendamento de Ferias" max_length="40" name="x_snc_ferias_agendamento_de_ferias" sizeclass="0" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="ferias" label="Tipo de Serviço" mandatory="true" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Ferias" sequence="0" value="ferias"/>
+                <element inactive_on_update="false" label="Licença Atestado" sequence="1" value="licença atestado"/>
+                <element inactive_on_update="false" label="Falta" sequence="2" value="falta"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Data Termino" max_length="40" name="u_end_date" read_only="true" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Estado" max_length="40" name="u_estado" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Novo" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Em Andamento" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Encerrado" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element label="Quantidade de Dias - Atestado" max_length="40" name="u_qnd_atestado" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Quantidade de Dias" max_length="40" name="u_qnd_dias" type="string">
+            <choice>
+                <element inactive_on_update="false" label="10 Dias" sequence="0" value="10 dias"/>
+                <element inactive_on_update="false" label="15 Dias" sequence="1" value="15 dias"/>
+                <element inactive_on_update="false" label="20 Dias" sequence="2" value="20 dias"/>
+                <element inactive_on_update="false" label="30 Dias" sequence="3" value="30 dias"/>
+            </choice>
+        </element>
+        <element label="Saldo Projetado" max_length="40" name="u_saldo" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Data Inicial" mandatory="true" max_length="40" name="u_start_date" type="glide_date"/>
+    </element>
+</database>

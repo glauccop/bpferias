@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2020-08-14 14:19:43">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>snc_internal</read_roles>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-14 10:59:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2920f5fa1ba6d450ae402f092a4bcb0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Calendário - Meu tim - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Ferias" source="x_snc_ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_scope>
+        <sys_update_name>sys_portal_page_2920f5fa1ba6d450ae402f092a4bcb0e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-14 10:59:52</sys_updated_on>
+        <title>PA Calendário - Meu tim - New Tab</title>
+        <user/>
+        <view>pa_calendário_-_meu_tim_-_new_tab</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Calendário - Meu tim - New Tab">2920f5fa1ba6d450ae402f092a4bcb0e</page>
+                <summary>Calendário -  Solicitações do Meu Time</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2020-08-14 11:00:11</sys_created_on>
+                <sys_id>1a3039fa1ba6d450ae402f092a4bcbcc</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2020-08-14 11:00:13</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2020-08-14 04:00:11">1a3039fa1ba6d450ae402f092a4bcbcc</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-08-14 11:00:12</sys_created_on>
+                        <sys_id>123039fa1ba6d450ae402f092a4bcbcd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-08-14 11:00:12</sys_updated_on>
+                        <value>6acf2dba1ba6d450ae402f092a4bcb2e</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2020-08-14 04:00:11">1a3039fa1ba6d450ae402f092a4bcbcc</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-08-14 11:00:12</sys_created_on>
+                        <sys_id>223039fa1ba6d450ae402f092a4bcbce</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-08-14 11:00:12</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2020-08-14 04:00:11">1a3039fa1ba6d450ae402f092a4bcbcc</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-08-14 11:00:12</sys_created_on>
+                        <sys_id>6a3039fa1ba6d450ae402f092a4bcbce</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-08-14 11:00:12</sys_updated_on>
+                        <value>Calendário -  Solicitações do Meu Time</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2020-08-14 04:00:11">1a3039fa1ba6d450ae402f092a4bcbcc</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-08-14 11:00:12</sys_created_on>
+                        <sys_id>6e3039fa1ba6d450ae402f092a4bcbcd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-08-14 11:00:12</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2020-08-14 04:00:11">1a3039fa1ba6d450ae402f092a4bcbcc</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-08-14 11:00:12</sys_created_on>
+                        <sys_id>a63039fa1ba6d450ae402f092a4bcbce</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-08-14 11:00:12</sys_updated_on>
+                        <value>calendar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2020-08-14 04:00:11">1a3039fa1ba6d450ae402f092a4bcbcc</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-08-14 11:00:12</sys_created_on>
+                        <sys_id>e23039fa1ba6d450ae402f092a4bcbce</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-08-14 11:00:12</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Calendário - Meu tim - New Tab">2920f5fa1ba6d450ae402f092a4bcb0e</page>
+                <summary>Lista -  Solicitações do Meu Time</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2020-08-14 11:04:15</sys_created_on>
+                <sys_id>ca21f1be1ba6d450ae402f092a4bcb17</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2020-08-14 11:04:16</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2020-08-14 04:04:15">ca21f1be1ba6d450ae402f092a4bcb17</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-08-14 11:04:16</sys_created_on>
+                        <sys_id>0a21f1be1ba6d450ae402f092a4bcb19</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-08-14 11:04:16</sys_updated_on>
+                        <value>Lista -  Solicitações do Meu Time</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2020-08-14 04:04:15">ca21f1be1ba6d450ae402f092a4bcb17</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-08-14 11:04:16</sys_created_on>
+                        <sys_id>0e21f1be1ba6d450ae402f092a4bcb18</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-08-14 11:04:16</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2020-08-14 04:04:15">ca21f1be1ba6d450ae402f092a4bcb17</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-08-14 11:04:16</sys_created_on>
+                        <sys_id>4221f1be1ba6d450ae402f092a4bcb18</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-08-14 11:04:16</sys_updated_on>
+                        <value>ebe0357e1ba6d450ae402f092a4bcb4e</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2020-08-14 04:04:15">ca21f1be1ba6d450ae402f092a4bcb17</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-08-14 11:04:16</sys_created_on>
+                        <sys_id>4621f1be1ba6d450ae402f092a4bcb19</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-08-14 11:04:16</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2020-08-14 04:04:15">ca21f1be1ba6d450ae402f092a4bcb17</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-08-14 11:04:16</sys_created_on>
+                        <sys_id>8221f1be1ba6d450ae402f092a4bcb19</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-08-14 11:04:16</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2020-08-14 04:04:15">ca21f1be1ba6d450ae402f092a4bcb17</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-08-14 11:04:16</sys_created_on>
+                        <sys_id>ce21f1be1ba6d450ae402f092a4bcb18</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-08-14 11:04:16</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

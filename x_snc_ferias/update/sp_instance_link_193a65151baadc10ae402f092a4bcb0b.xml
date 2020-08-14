@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>headphones</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item display_value="">12147da2d7532100a9ad1e173e24d4de</sc_cat_item>
+        <sc_category/>
+        <short_description>Faça um agendamento em um local de TI para fazer uma solicitação ou relatar um problema</short_description>
+        <size>md</size>
+        <sp_column display_value="2">593a65151baadc10ae402f092a4bcb09</sp_column>
+        <sp_page display_value="walkup_online_checkin">7faf7ffe3b3303001d132c2b54efc4c1</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-09 18:43:01</sys_created_on>
+        <sys_id>193a65151baadc10ae402f092a4bcb0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Agendamento Presencial</sys_name>
+        <sys_package display_value="Ferias" source="x_snc_ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_scope>
+        <sys_update_name>sp_instance_link_193a65151baadc10ae402f092a4bcb0b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-09 18:43:01</sys_updated_on>
+        <title>Agendamento Presencial</title>
+        <type>page</type>
+        <url>?id=sqa_tagged_questions</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=193a65151baadc10ae402f092a4bcb0b"/>
+</record_update>

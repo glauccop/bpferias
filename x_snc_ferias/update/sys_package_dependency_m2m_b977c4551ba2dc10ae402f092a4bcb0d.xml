@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Task table schema" source="com.glide.task">30278b971b011010e4f2ff751a4bcbe0</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-09 11:31:36</sys_created_on>
+        <sys_id>b977c4551ba2dc10ae402f092a4bcb0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Ferias" source="x_snc_ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-09 11:31:36</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

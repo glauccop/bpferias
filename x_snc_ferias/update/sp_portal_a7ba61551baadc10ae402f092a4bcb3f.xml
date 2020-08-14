@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="INSERT_OR_UPDATE">
+        <css_variables>$brand-primary:#000000;
+$body-bg:#ffffff;
+$state-success-text:#1e4335;
+$sp-homepage-bg:#fff;
+$sp-navbar-divider-color:#000000;
+$text-color:#2e2e2e;
+$sp-logo-margin-y:.5rem;
+$navbar-inverse-link-hover-color:#bdc0c4;
+$panel-bg:#ffffff;
+$brand-success:#48C891;
+$navbar-inverse-bg:#bdc0c4;
+$brand-warning:#DFD139;
+$brand-danger:#C83C36;
+$sp-tagline-color:#ffffff;
+$navbar-inverse-link-color:#000000;
+$brand-info:#6ABECF;
+$link-color:#1F8476;
+$sp-logo-margin-x:15px;
+$btn-default-bg:#000000;
+$text-muted:#666666;
+</css_variables>
+        <default>false</default>
+        <homepage display_value="index_ferias">743a61151baadc10ae402f092a4bcb27</homepage>
+        <icon/>
+        <kb_knowledge_base/>
+        <kb_knowledge_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</kb_knowledge_page>
+        <login_page display_value="landing">36c61807cb31120000f8d856634c9ca9</login_page>
+        <logo>1bd043e11ba65050ae402f092a4bcbf1</logo>
+        <notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page>
+        <quick_start_config/>
+        <sc_catalog/>
+        <sc_catalog_page display_value="sc_category">07261a2147132100ba13a5554ee49092</sc_catalog_page>
+        <sc_category_page/>
+        <sp_chat_queue display_value="Virtual Agent Support">f4d701b1b3900300f7d1a13816a8dc8e</sp_chat_queue>
+        <sp_rectangle_menu display_value="SP Header Menu">d150fd31cb10020000f8d856634c9ce6</sp_rectangle_menu>
+        <sqanda_knowledge_base/>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-09 18:48:14</sys_created_on>
+        <sys_id>a7ba61551baadc10ae402f092a4bcb3f</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Banpará- Portal de Serviços</sys_name>
+        <sys_package display_value="Ferias" source="x_snc_ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_scope>
+        <sys_update_name>sp_portal_a7ba61551baadc10ae402f092a4bcb3f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-14 14:09:29</sys_updated_on>
+        <theme display_value="La Jolla">a7a6e78277002300a6e592718a10617a</theme>
+        <title>Banpará- Portal de Serviços</title>
+        <ts_index_group/>
+        <url_suffix>banpara</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="delete_multiple" query="documentkey=a7ba61551baadc10ae402f092a4bcb3f"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#18447c</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>logo</file_name>
+        <hash>764320180e67b5a3dd627f895001523e473e6acf996f613d004cf1ca3d479936</hash>
+        <image_height>41</image_height>
+        <image_width>138</image_width>
+        <size_bytes>3386</size_bytes>
+        <size_compressed>3409</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-10 19:40:06</sys_created_on>
+        <sys_id>1bd043e11ba65050ae402f092a4bcbf1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-10 19:40:06</sys_updated_on>
+        <table_name>ZZ_YYsp_portal</table_name>
+        <table_sys_id>a7ba61551baadc10ae402f092a4bcb3f</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="logo" sys_id="1bd043e11ba65050ae402f092a4bcbf1">1bd043e11ba65050ae402f092a4bcbf1</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-10 19:40:06</sys_created_on>
+        <sys_id>5bd043e11ba65050ae402f092a4bcbf1</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>4532</length>
+        <position>1</position>
+        <sys_attachment display_value="logo" sys_id="1bd043e11ba65050ae402f092a4bcbf1">1bd043e11ba65050ae402f092a4bcbf1</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-10 19:40:06</sys_created_on>
+        <sys_id>dbd043e11ba65050ae402f092a4bcbf1</sys_id>
+    </sys_attachment_doc>
+</record_update>

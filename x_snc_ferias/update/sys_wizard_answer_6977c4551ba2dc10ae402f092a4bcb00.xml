@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Agendamento de Ferias</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Agendamento de Ferias</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">f4278b971b011010e4f2ff751a4bcbe2</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-09 11:31:35</sys_created_on>
+        <sys_id>6977c4551ba2dc10ae402f092a4bcb00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Agendamento de Ferias</sys_name>
+        <sys_package display_value="Ferias" source="x_snc_ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_scope>
+        <sys_update_name>sys_wizard_answer_6977c4551ba2dc10ae402f092a4bcb00</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-09 11:31:35</sys_updated_on>
+        <table/>
+        <target_url>x_snc_ferias_agendamento_de_ferias.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

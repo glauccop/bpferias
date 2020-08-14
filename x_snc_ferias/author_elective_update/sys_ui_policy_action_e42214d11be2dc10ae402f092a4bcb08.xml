@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field>work_end</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-09 12:18:27</sys_created_on>
+        <sys_id>e42214d11be2dc10ae402f092a4bcb08</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>work_end</sys_name>
+        <sys_package display_value="Ferias" source="x_snc_ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_scope>
+        <sys_update_name>sys_ui_policy_action_e42214d11be2dc10ae402f092a4bcb08</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-11 17:06:00</sys_updated_on>
+        <table>x_snc_ferias_agendamento_de_ferias</table>
+        <ui_policy display_value="Regras de Ferias">91de84dd1ba2dc10ae402f092a4bcb10</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ferias">9a4648d11ba2dc10ae402f092a4bcba6</application>
+        <file_path/>
+        <instance_id>c11447dfdb4ddc147527d7c8f4961993</instance_id>
+        <instance_name>brasil2demo</instance_name>
+        <name>sys_ui_policy_action_e42214d11be2dc10ae402f092a4bcb08</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>true</cleared><disabled>ignore</disabled><field>work_end</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-08-09 12:18:27</sys_created_on><sys_id>e42214d11be2dc10ae402f092a4bcb08</sys_id><sys_mod_count>1</sys_mod_count><sys_name>work_end</sys_name><sys_package display_value="Ferias" source="x_snc_ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_package><sys_policy/><sys_scope display_value="Ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_scope><sys_update_name>sys_ui_policy_action_e42214d11be2dc10ae402f092a4bcb08</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-08-11 17:06:00</sys_updated_on><table>x_snc_ferias_agendamento_de_ferias</table><ui_policy display_value="Regras de Ferias">91de84dd1ba2dc10ae402f092a4bcb10</ui_policy><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>930780657</payload_hash>
+        <record_name>work_end</record_name>
+        <reverted_from/>
+        <source>924648d11ba2dc10ae402f092a4bcba9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-11 17:06:00</sys_created_on>
+        <sys_id>a32727fd1b6e9050ae402f092a4bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173de7c61ef0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-11 17:06:00</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>6b2727fd656e905061ba3ddf17cff618</update_guid>
+        <update_guid_history>6b2727fd656e905061ba3ddf17cff618:930780657,083294d191e2dc10aa50835be69ea7bc:983346402</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-11 17:12:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>5b1fb0fbc34747d8aebe1bf3e90899c4</sys_id>
+        <sys_metadata>e42214d11be2dc10ae402f092a4bcb08</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>work_end</sys_name>
+        <sys_package display_value="Ferias" source="x_snc_ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_package>
+        <sys_parent display_value="Regras de Ferias">91de84dd1ba2dc10ae402f092a4bcb10</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_scope>
+        <sys_scope_delete display_value="">2d9f3b3197094af49687cd6721a99210</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_e42214d11be2dc10ae402f092a4bcb08</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_e42214d11be2dc10ae402f092a4bcb08">a32727fd1b6e9050ae402f092a4bcb19</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-11 17:12:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
