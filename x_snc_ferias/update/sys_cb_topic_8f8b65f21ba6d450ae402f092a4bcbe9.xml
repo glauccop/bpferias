@@ -666,10 +666,10 @@
         <library>false</library>
         <live_agent>false</live_agent>
         <name>Pedido de Ferias, Atestado e Falta</name>
-        <nlu_intent/>
-        <nlu_intent_label/>
-        <nlu_model/>
-        <nlu_model_label/>
+        <nlu_intent>Ferias</nlu_intent>
+        <nlu_intent_label>Ferias</nlu_intent_label>
+        <nlu_model>global_x_snc_csm_nlu_demo_CSM_NLU_Demo</nlu_model>
+        <nlu_model_label>CSM NLU Demo</nlu_model_label>
         <nlu_provider>64c023c17300330021a044764df6a70e</nlu_provider>
         <roles/>
         <sys_class_name>sys_cb_topic</sys_class_name>
@@ -677,14 +677,14 @@
         <sys_created_on>2020-08-14 10:39:45</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>8f8b65f21ba6d450ae402f092a4bcbe9</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Pedido de Ferias, Atestado e Falta</sys_name>
         <sys_package display_value="Ferias" source="x_snc_ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_scope>
         <sys_update_name>sys_cb_topic_8f8b65f21ba6d450ae402f092a4bcbe9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-14 21:12:13</sys_updated_on>
+        <sys_updated_on>2020-08-26 13:16:08</sys_updated_on>
         <variables/>
     </sys_cb_topic>
     <sys_variable_value action="delete_multiple" query="document_key=8f8b65f21ba6d450ae402f092a4bcbe9"/>
