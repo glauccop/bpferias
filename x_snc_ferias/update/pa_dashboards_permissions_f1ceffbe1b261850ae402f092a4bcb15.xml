@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="Calendário - Meu time">8c10b5fa1ba6d450ae402f092a4bcb62</dashboard>
+        <delete>false</delete>
+        <group/>
+        <identity>b282abf03710200044e0bfc8bcbe5d28</identity>
+        <read>true</read>
+        <role/>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-14 21:23:01</sys_created_on>
+        <sys_id>f1ceffbe1b261850ae402f092a4bcb15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b282abf03710200044e0bfc8bcbe5d28</sys_name>
+        <sys_package display_value="Ferias" source="x_snc_ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_f1ceffbe1b261850ae402f092a4bcb15</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-14 21:23:01</sys_updated_on>
+        <type>3</type>
+        <user display_value="Allan Schwantd">b282abf03710200044e0bfc8bcbe5d28</user>
+        <write>false</write>
+    </pa_dashboards_permissions>
+</record_update>

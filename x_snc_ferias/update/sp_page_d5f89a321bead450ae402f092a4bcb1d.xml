@@ -18,6 +18,7 @@
         <internal>false</internal>
         <public>false</public>
         <roles>snc_external,snc_internal</roles>
+        <seo_script/>
         <short_description/>
         <sys_class_name>sp_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -32,6 +33,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-08-14 13:59:10</sys_updated_on>
         <title>Requisição de Férias</title>
+        <use_seo_script>false</use_seo_script>
     </sp_page>
     <sys_translated_text action="delete_multiple" query="documentkey=d5f89a321bead450ae402f092a4bcb1d"/>
 </record_update>

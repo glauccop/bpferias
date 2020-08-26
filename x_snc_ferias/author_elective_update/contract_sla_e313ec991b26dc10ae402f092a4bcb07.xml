@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="contract_sla">
+    <contract_sla action="DELETE">
+        <active>true</active>
+        <cancel_condition/>
+        <collection>x_snc_ferias_agendamento_de_ferias</collection>
+        <condition_class/>
+        <duration>1970-01-01 00:30:00</duration>
+        <duration_type/>
+        <enable_logging>false</enable_logging>
+        <flow display_value="Default SLA flow">828f267973333300e289235f04f6a7a3</flow>
+        <name>Ferias</name>
+        <pause_condition table="x_snc_ferias_agendamento_de_ferias">state=^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </pause_condition>
+        <relative_duration_works_on>Task record</relative_duration_works_on>
+        <reset_action>cancel</reset_action>
+        <reset_condition/>
+        <resume_condition/>
+        <retroactive>false</retroactive>
+        <retroactive_pause>true</retroactive_pause>
+        <schedule/>
+        <schedule_source>no_schedule</schedule_source>
+        <schedule_source_field/>
+        <service_commitment>false</service_commitment>
+        <set_start_to>approval_set</set_start_to>
+        <start_condition table="x_snc_ferias_agendamento_de_ferias">state=3^EQ<item display_value="Em Aprovação" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </start_condition>
+        <stop_condition table="x_snc_ferias_agendamento_de_ferias">state=4^EQ<item display_value="Agendado" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="4"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </stop_condition>
+        <sys_class_name>contract_sla</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-09 13:34:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e313ec991b26dc10ae402f092a4bcb07</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Ferias</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Ferias" source="x_snc_ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_scope>
+        <sys_update_name>contract_sla_e313ec991b26dc10ae402f092a4bcb07</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-14 13:01:53</sys_updated_on>
+        <target>resolution</target>
+        <timezone/>
+        <timezone_source>task.caller_id.time_zone</timezone_source>
+        <type>SLA</type>
+        <vendor/>
+        <when_to_cancel>on_condition</when_to_cancel>
+        <when_to_resume>on_condition</when_to_resume>
+        <workflow/>
+    </contract_sla>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ferias">9a4648d11ba2dc10ae402f092a4bcba6</application>
+        <file_path/>
+        <instance_id>c11447dfdb4ddc147527d7c8f4961993</instance_id>
+        <instance_name>brasil2demo</instance_name>
+        <name>contract_sla_e313ec991b26dc10ae402f092a4bcb07</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="contract_sla"><contract_sla action="INSERT_OR_UPDATE"><active>true</active><cancel_condition/><collection>x_snc_ferias_agendamento_de_ferias</collection><condition_class/><duration>1970-01-01 00:30:00</duration><duration_type/><enable_logging>false</enable_logging><flow display_value="Default SLA flow">828f267973333300e289235f04f6a7a3</flow><name>Ferias</name><pause_condition table="x_snc_ferias_agendamento_de_ferias">state=^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value=""/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></pause_condition><relative_duration_works_on>Task record</relative_duration_works_on><reset_action>cancel</reset_action><reset_condition/><resume_condition/><retroactive>false</retroactive><retroactive_pause>true</retroactive_pause><schedule/><schedule_source>no_schedule</schedule_source><schedule_source_field/><service_commitment>false</service_commitment><set_start_to>approval_set</set_start_to><start_condition table="x_snc_ferias_agendamento_de_ferias">state=3^EQ<item display_value="Em Aprovação" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></start_condition><stop_condition table="x_snc_ferias_agendamento_de_ferias">state=4^EQ<item display_value="Agendado" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="4"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></stop_condition><sys_class_name>contract_sla</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-08-09 13:34:14</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e313ec991b26dc10ae402f092a4bcb07</sys_id><sys_mod_count>8</sys_mod_count><sys_name>Ferias</sys_name><sys_overrides/><sys_package display_value="Ferias" source="x_snc_ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_package><sys_policy/><sys_scope display_value="Ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_scope><sys_update_name>contract_sla_e313ec991b26dc10ae402f092a4bcb07</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-08-14 13:01:53</sys_updated_on><target>resolution</target><timezone/><timezone_source>task.caller_id.time_zone</timezone_source><type>SLA</type><vendor/><when_to_cancel>on_condition</when_to_cancel><when_to_resume>on_condition</when_to_resume><workflow/></contract_sla></record_update>]]></payload>
+        <payload_hash>1658268583</payload_hash>
+        <record_name>Ferias</record_name>
+        <reverted_from/>
+        <source>924648d11ba2dc10ae402f092a4bcba9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-14 13:01:53</sys_created_on>
+        <sys_id>4d1c0afa1b6ad450ae402f092a4bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173ed0ff8dc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-14 13:01:53</sys_updated_on>
+        <type>SLA Definition</type>
+        <update_guid>411c0afa446ad45094bd249fb3567fbd</update_guid>
+        <update_guid_history>411c0afa446ad45094bd249fb3567fbd:1658268583,715a8a3a0e6ad4509a34545e9a5181cd:1849274342,0d0a063abf6ad45066304dab58df8261:-782002715,7cb6f1be34e6d450f1e67929fe543dcc:1658268583,bb9665dd336adc101d481856053e8c5e:2084255818,4c95a19db26adc1042b3c858bb90e4ac:-1708105614,4930a995116adc100df47a90a7339f0e:757675332,f17d1dd1ee6adc1032714659a115e8e3:-34661580,528320d92b26dc10c7f8fbac6dda076f:1739474396</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Ferias">695d9f3a1b621850ae402f092a4bcbc0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-14 18:56:54</sys_created_on>
+        <sys_db_object display_value="" name="contract_sla">contract_sla</sys_db_object>
+        <sys_id>62fc824ebe394da0b47a17c863b776a4</sys_id>
+        <sys_metadata>e313ec991b26dc10ae402f092a4bcb07</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ferias</sys_name>
+        <sys_package display_value="Ferias" source="x_snc_ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_scope>
+        <sys_scope_delete display_value="">2d9f3b3197094af49687cd6721a99210</sys_scope_delete>
+        <sys_update_name>contract_sla_e313ec991b26dc10ae402f092a4bcb07</sys_update_name>
+        <sys_update_version display_value="contract_sla_e313ec991b26dc10ae402f092a4bcb07">4d1c0afa1b6ad450ae402f092a4bcbbd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-14 18:56:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -5,7 +5,7 @@
         <action_delete>false</action_delete>
         <action_insert>true</action_insert>
         <action_query>false</action_query>
-        <action_update>true</action_update>
+        <action_update>false</action_update>
         <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
@@ -15,9 +15,10 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="x_snc_ferias_agendamento_de_ferias">u_choice_3=ferias^u_qnd_dias=20 dias^u_start_date&gt;javascript:gs.endOfYesterday()^EQ<item display_value="Ferias" endquery="false" field="u_choice_3" goto="false" newquery="false" operator="=" or="false" value="ferias"/>
+        <filter_condition table="x_snc_ferias_agendamento_de_ferias">u_choice_3=ferias^u_qnd_dias=20 dias^u_start_date&gt;javascript:gs.endOfYesterday()^state=1^EQ<item display_value="Ferias" endquery="false" field="u_choice_3" goto="false" newquery="false" operator="=" or="false" value="ferias"/>
             <item display_value="20 Dias" endquery="false" field="u_qnd_dias" goto="false" newquery="false" operator="=" or="false" value="20 dias"/>
             <item endquery="false" field="u_start_date" goto="false" newquery="false" operator="&gt;" or="false" value="javascript:gs.endOfYesterday()"/>
+            <item display_value="Novo" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
@@ -60,7 +61,7 @@ current.update();
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>74994cda1b661450ae402f092a4bcb65</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>QndDiasBusca20</sys_name>
         <sys_overrides/>
         <sys_package display_value="Ferias" source="x_snc_ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_package>
@@ -68,7 +69,7 @@ current.update();
         <sys_scope display_value="Ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_scope>
         <sys_update_name>sys_script_74994cda1b661450ae402f092a4bcb65</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-12 16:14:18</sys_updated_on>
+        <sys_updated_on>2020-08-14 16:04:41</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

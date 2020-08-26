@@ -42,8 +42,46 @@
             <dependent_value/>
             <element>state</element>
             <hint/>
+            <inactive>true</inactive>
+            <label>Concluido</label>
+            <language>en</language>
+            <name>x_snc_ferias_agendamento_de_ferias</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-09 11:47:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>852bc8991ba2dc10ae402f092a4bcbdf</sys_id>
+            <sys_mod_count>8</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-14 19:38:57</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Reg Sistema</label>
+            <language>en</language>
+            <name>x_snc_ferias_agendamento_de_ferias</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-11 16:27:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c24e13b11b6e9050ae402f092a4bcbf4</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-14 19:32:35</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
             <inactive>false</inactive>
-            <label>Requisitado</label>
+            <label>Working in Progress</label>
             <language>en</language>
             <name>x_snc_ferias_agendamento_de_ferias</name>
             <sequence>1</sequence>
@@ -52,9 +90,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>c92bc8991ba2dc10ae402f092a4bcbdc</sys_id>
-            <sys_mod_count>4</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-11 16:27:07</sys_updated_on>
+            <sys_updated_on>2020-08-14 19:38:57</sys_updated_on>
             <value>2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -86,21 +124,21 @@
             <name>x_snc_ferias_agendamento_de_ferias</name>
             <sequence>2</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-08-09 11:47:40</sys_created_on>
+            <sys_created_on>2020-08-14 19:11:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>852bc8991ba2dc10ae402f092a4bcbdf</sys_id>
-            <sys_mod_count>4</sys_mod_count>
+            <sys_id>ab9067fe1b621850ae402f092a4bcb61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-11 16:27:07</sys_updated_on>
-            <value>3</value>
+            <sys_updated_on>2020-08-14 19:11:15</sys_updated_on>
+            <value>21</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Agendado</label>
+            <label>Close Incomplet</label>
             <language>en</language>
             <name>x_snc_ferias_agendamento_de_ferias</name>
             <sequence>3</sequence>
@@ -109,9 +147,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>412bc8991ba2dc10ae402f092a4bcbe2</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-11 16:27:06</sys_updated_on>
+            <sys_updated_on>2020-08-14 19:38:57</sys_updated_on>
             <value>4</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -119,19 +157,19 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Reg Sistema</label>
+            <label>Registrado</label>
             <language>en</language>
             <name>x_snc_ferias_agendamento_de_ferias</name>
             <sequence>4</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-08-11 16:27:07</sys_created_on>
+            <sys_created_on>2020-08-14 19:32:35</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>c24e13b11b6e9050ae402f092a4bcbf4</sys_id>
+            <sys_id>d88567761ba21850ae402f092a4bcb2c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-11 16:27:07</sys_updated_on>
-            <value>5</value>
+            <sys_updated_on>2020-08-14 19:32:35</sys_updated_on>
+            <value>13</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -147,10 +185,67 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>8e4e13b11b6e9050ae402f092a4bcbf6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-14 19:06:31</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Solicitado</label>
+            <language>en</language>
+            <name>x_snc_ferias_agendamento_de_ferias</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-14 19:38:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>29f6e3f61ba21850ae402f092a4bcb6d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-11 16:27:07</sys_updated_on>
-            <value>6</value>
+            <sys_updated_on>2020-08-14 19:38:57</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Em Aprovação</label>
+            <language>en</language>
+            <name>x_snc_ferias_agendamento_de_ferias</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-14 19:38:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e1f6e3f61ba21850ae402f092a4bcb70</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-14 19:38:57</sys_updated_on>
+            <value>11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Agendado</label>
+            <language>en</language>
+            <name>x_snc_ferias_agendamento_de_ferias</name>
+            <sequence>8</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-14 19:38:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>adf6e3f61ba21850ae402f092a4bcb72</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-14 19:38:57</sys_updated_on>
+            <value>12</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>state</element>

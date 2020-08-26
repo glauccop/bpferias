@@ -21,7 +21,7 @@
           "stepType": "Start",
           "name": "Start",
           "greetingResponse": {
-            "value": "Então como podemos te ajudar hoje?",
+            "value": "Olá. para prosseguir eu irei lhe fazer algumas perguntas.",
             "mode": "simple"
           }
         },
@@ -33,86 +33,6 @@
             "mode": "simple",
             "value": ""
           }
-        },
-        "ddcff08a6a144bd894dbe6e978929906": {
-          "id": "ddcff08a6a144bd894dbe6e978929906",
-          "stepType": "Prompt",
-          "name": "Descirção Resumida",
-          "prompt": {
-            "value": "Por Favor descreva sua solicitação resumidamente",
-            "mode": "simple"
-          },
-          "confirmMessage": {
-            "value": "",
-            "mode": "simple"
-          },
-          "acknowledgeMsg": {
-            "value": "Ok",
-            "mode": "simple"
-          },
-          "applicability": {
-            "value": "",
-            "mode": "query"
-          },
-          "optional": false,
-          "defaultValue": {
-            "value": "",
-            "mode": "simple"
-          },
-          "withNluUserInput": false,
-          "skipIfFulfilled": false,
-          "entity": "",
-          "variableId": "d1e5ce8ddab14d08bc2a45e0f9490062"
-        },
-        "e868ea86d26d42868ce7d0de67b8e0c2": {
-          "id": "e868ea86d26d42868ce7d0de67b8e0c2",
-          "stepType": "ReusableTopic",
-          "name": "Contextual Search",
-          "fields": [],
-          "reusableTopicChoice": "Contextual Search",
-          "reusableTopicId": "d9dec393b3973300dbbf6030c6a8dc27",
-          "inputs": {
-            "context": {
-              "value": "2821675a5b30130070e4492c11f91a89",
-              "mode": "simple"
-            },
-            "query": {
-              "value": "{{vaInputs.descir_o_resumida}}",
-              "mode": "simple"
-            },
-            "portal": {
-              "value": "sp",
-              "mode": "simple"
-            },
-            "kb_knowledge_base": {
-              "value": "{{vaInputs.descir_o_resumida}}",
-              "mode": "simple"
-            }
-          },
-          "outputs": [
-            {
-              "id": "01212ac4f9894250ab4483bba0e3cf05",
-              "value": "results_returned",
-              "mapping": "results_returned",
-              "preventDisable": false
-            },
-            {
-              "id": "3874b070a76d401480ffb1d0e1da3a42",
-              "value": "results_helpful",
-              "mapping": "results_helpful",
-              "preventDisable": false
-            }
-          ],
-          "variableIds": [
-            "01212ac4f9894250ab4483bba0e3cf05",
-            "3874b070a76d401480ffb1d0e1da3a42"
-          ],
-          "outdatedNote": false
-        },
-        "307841c7bdbd4941807d75cc545385e2": {
-          "id": "307841c7bdbd4941807d75cc545385e2",
-          "stepType": "Decision",
-          "name": "Decision"
         },
         "e6d2923dc155422a8d55410420f8ebca": {
           "id": "e6d2923dc155422a8d55410420f8ebca",
@@ -138,11 +58,11 @@
           "variableIds": [],
           "outputs": []
         },
-        "9e668f215b044272b7da80a2e079d03c": {
-          "stepType": "ReferenceChoicePrompt",
-          "name": "Tipo de Servico",
+        "80927b2a27c34e3f87859cf9618272bd": {
+          "stepType": "ChoicePrompt",
+          "name": "Quantidades de Dias",
           "prompt": {
-            "value": "Tipo de Servico",
+            "value": "Selecione a quantidade de dias",
             "mode": "simple"
           },
           "confirmMessage": {
@@ -162,71 +82,120 @@
             "value": "",
             "mode": "simple"
           },
-          "variableId": "22813a9acef54acea83bdf5c3931ca74",
-          "id": "9e668f215b044272b7da80a2e079d03c",
-          "mode": "glide_record",
-          "script": "",
-          "noRecordsResponseMsg": {
-            "value": "Tipo de Servico",
-            "mode": "simple"
-          },
-          "condition": {
-            "mode": "glide_query",
-            "value": "u_choice_3=ferias^ORu_choice_3=licença atestado^ORu_choice_3=falta"
-          },
+          "variableId": "dfbc0f72ed224234a2f5bb4ebb032ca2",
+          "id": "80927b2a27c34e3f87859cf9618272bd",
           "withNluUserInput": false,
           "skipIfFulfilled": false,
           "entity": ""
         },
-        "8f8871e3e6ed4b17a4016c23f97a6562": {
-          "id": "8f8871e3e6ed4b17a4016c23f97a6562",
+        "caff6ffc318b4638acf89e25043cafd6": {
+          "id": "caff6ffc318b4638acf89e25043cafd6",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "636f1bc8d42f43379e06b6dbe4db706c": {
+          "id": "636f1bc8d42f43379e06b6dbe4db706c",
+          "stepType": "Prompt",
+          "name": "Data Inicial10",
+          "prompt": {
+            "value": "Selecione a Data inicial",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": "",
+          "variableId": "29916a18cd9a449fba51ff0cb8dc5ea1"
+        },
+        "1e294c1e5dbe4b569e812032e0097927": {
+          "id": "1e294c1e5dbe4b569e812032e0097927",
           "stepType": "CrudAction",
-          "name": "servico",
-          "template": "u_qnd_dias=",
+          "name": "Cria Request",
+          "template": "u_choice_3=ferias^u_qnd_dias={{vaInputs.quantidades_de_dias}}^work_start={{vaInputs.data_inicial10}}",
           "mode": "create",
           "record": "",
           "applicability": {
             "value": "",
             "mode": "query"
           },
-          "variableId": "8dd065b8aabf45b0adc31952f8687f06"
+          "variableId": "652a1644a8bf4ac8a0f91acbd7fc1ab8"
+        },
+        "6a6f191fedaa46e7a829e286f0027d87": {
+          "id": "6a6f191fedaa46e7a829e286f0027d87",
+          "stepType": "RecordOutput",
+          "name": "Resultado",
+          "variableId": "652a1644a8bf4ac8a0f91acbd7fc1ab8",
+          "mode": "variable",
+          "tableName": "x_snc_ferias_agendamento_de_ferias",
+          "fields": [
+            "number",
+            "u_choice_3",
+            "u_start_date",
+            "u_end_date",
+            "state"
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "condition": {
+            "mode": "",
+            "value": ""
+          }
+        },
+        "e0938d42433c41a7aa745473163d9ff5": {
+          "stepType": "ChoicePrompt",
+          "name": "Tipo de Serviço",
+          "prompt": {
+            "value": "Selecione o tipo de Serviço",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "7a3f46debb3d4bd884456839dbc9ad61",
+          "id": "e0938d42433c41a7aa745473163d9ff5",
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": ""
         }
       },
       "edges": [
         {
-          "id": "ffb9066d687346f2bc90109e961fd462",
-          "edgeType": "Branch",
-          "source": "307841c7bdbd4941807d75cc545385e2",
+          "id": "976cac3fc45c40ceae44119388f8a3cb",
+          "edgeType": "Edge",
+          "source": "6a6f191fedaa46e7a829e286f0027d87",
           "target": "e6d2923dc155422a8d55410420f8ebca",
-          "sourcePort": "",
-          "targetPort": "",
-          "expression": {
-            "value": "results_helpful=true",
-            "mode": "query"
-          },
-          "label": "Não Necessito de Ajuda"
-        },
-        {
-          "id": "81a567e29a0a491488d03f9e9e065c65",
-          "edgeType": "Edge",
-          "source": "9522f360663d4f999265eb1cbc81de21",
-          "target": "ddcff08a6a144bd894dbe6e978929906",
-          "sourcePort": "",
-          "targetPort": ""
-        },
-        {
-          "id": "4f57c2589a6c4b5bb87afbc73eddcbd7",
-          "edgeType": "Edge",
-          "source": "ddcff08a6a144bd894dbe6e978929906",
-          "target": "e868ea86d26d42868ce7d0de67b8e0c2",
-          "sourcePort": "",
-          "targetPort": ""
-        },
-        {
-          "id": "71935f63562b414fb342718f497e9bfe",
-          "edgeType": "Edge",
-          "source": "e868ea86d26d42868ce7d0de67b8e0c2",
-          "target": "307841c7bdbd4941807d75cc545385e2",
           "sourcePort": "",
           "targetPort": ""
         },
@@ -239,31 +208,94 @@
           "targetPort": ""
         },
         {
-          "id": "06edc40658ff4c61bf69202358c1062c",
+          "id": "fac604f85ca04a159fe7cbb55fb2dad0",
           "edgeType": "Edge",
-          "source": "9e668f215b044272b7da80a2e079d03c",
-          "target": "e6d2923dc155422a8d55410420f8ebca",
+          "source": "80927b2a27c34e3f87859cf9618272bd",
+          "target": "caff6ffc318b4638acf89e25043cafd6",
           "sourcePort": "",
           "targetPort": ""
         },
         {
-          "id": "94b5ba0326bd4f08a7bd1dfd4e436dab",
+          "id": "2d9abe1c128d482fab6e3d62f1446df5",
           "edgeType": "Branch",
-          "source": "307841c7bdbd4941807d75cc545385e2",
-          "target": "8f8871e3e6ed4b17a4016c23f97a6562",
+          "source": "caff6ffc318b4638acf89e25043cafd6",
+          "target": "636f1bc8d42f43379e06b6dbe4db706c",
           "sourcePort": "",
           "targetPort": "",
           "expression": {
-            "value": "results_helpful!=true",
+            "value": "quantidades_de_dias=30",
             "mode": "query"
           },
-          "label": "Necessito de Ajuda"
+          "label": "30 Dias"
         },
         {
-          "id": "a5c0300f0af54cc3a4795dca28a069ff",
+          "id": "84b8e0347c5a46a5b39f3622cb4b56c4",
+          "edgeType": "Branch",
+          "source": "caff6ffc318b4638acf89e25043cafd6",
+          "target": "636f1bc8d42f43379e06b6dbe4db706c",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "quantidades_de_dias=15",
+            "mode": "query"
+          },
+          "label": "15Dias"
+        },
+        {
+          "id": "a4b405a16a8c4dd6b20e8e5ff8a6c6fb",
+          "edgeType": "Branch",
+          "source": "caff6ffc318b4638acf89e25043cafd6",
+          "target": "636f1bc8d42f43379e06b6dbe4db706c",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "quantidades_de_dias=20",
+            "mode": "query"
+          },
+          "label": "20 Dias"
+        },
+        {
+          "id": "5b11a5e31fd9426192bd6e08135de510",
+          "edgeType": "Branch",
+          "source": "caff6ffc318b4638acf89e25043cafd6",
+          "target": "636f1bc8d42f43379e06b6dbe4db706c",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "quantidades_de_dias=10",
+            "mode": "query"
+          },
+          "label": "10 Dias"
+        },
+        {
+          "id": "710c2df01b834cfaa285b187c8dff533",
           "edgeType": "Edge",
-          "source": "8f8871e3e6ed4b17a4016c23f97a6562",
-          "target": "9e668f215b044272b7da80a2e079d03c",
+          "source": "636f1bc8d42f43379e06b6dbe4db706c",
+          "target": "1e294c1e5dbe4b569e812032e0097927",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "7efcfcad19d74d4b8b075647086cf36c",
+          "edgeType": "Edge",
+          "source": "1e294c1e5dbe4b569e812032e0097927",
+          "target": "6a6f191fedaa46e7a829e286f0027d87",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "81a567e29a0a491488d03f9e9e065c65",
+          "edgeType": "Edge",
+          "source": "9522f360663d4f999265eb1cbc81de21",
+          "target": "e0938d42433c41a7aa745473163d9ff5",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "72b44f6350ba4ff7b173a401a0ca085c",
+          "edgeType": "Edge",
+          "source": "e0938d42433c41a7aa745473163d9ff5",
+          "target": "80927b2a27c34e3f87859cf9618272bd",
           "sourcePort": "",
           "targetPort": ""
         }
@@ -279,13 +311,6 @@
       "name": "user",
       "table": "sys_user",
       "varType": "reference"
-    },
-    "d1e5ce8ddab14d08bc2a45e0f9490062": {
-      "id": "d1e5ce8ddab14d08bc2a45e0f9490062",
-      "name": "descir_o_resumida",
-      "label": "Descirção Resumida",
-      "varType": "string",
-      "category": "vaInputs"
     },
     "69afc0aca9ee4aef8d42982baa9f4198": {
       "id": "69afc0aca9ee4aef8d42982baa9f4198",
@@ -567,37 +592,72 @@
       "varType": "script",
       "category": "vaVars"
     },
-    "01212ac4f9894250ab4483bba0e3cf05": {
-      "id": "01212ac4f9894250ab4483bba0e3cf05",
-      "name": "results_returned",
-      "label": "Results_returned",
-      "defaultValue": "results_returned",
-      "varType": "string",
+    "dfbc0f72ed224234a2f5bb4ebb032ca2": {
+      "id": "dfbc0f72ed224234a2f5bb4ebb032ca2",
+      "name": "quantidades_de_dias",
+      "label": "Quantidades De Dias",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "10 Dias",
+          "value": "10"
+        },
+        {
+          "label": "15 Dias",
+          "value": "15",
+          "checked": true
+        },
+        {
+          "label": "20 Dias",
+          "value": "20",
+          "checked": true
+        },
+        {
+          "label": "30 Dias",
+          "value": "30",
+          "checked": true
+        }
+      ],
       "category": "vaInputs"
     },
-    "3874b070a76d401480ffb1d0e1da3a42": {
-      "id": "3874b070a76d401480ffb1d0e1da3a42",
-      "name": "results_helpful",
-      "label": "Results_helpful",
-      "defaultValue": "results_helpful",
-      "varType": "string",
-      "category": "vaInputs"
+    "29916a18cd9a449fba51ff0cb8dc5ea1": {
+      "id": "29916a18cd9a449fba51ff0cb8dc5ea1",
+      "name": "data_inicial10",
+      "label": "Data Inicial10",
+      "varType": "date_time",
+      "category": "vaInputs",
+      "mode": "date_time"
     },
-    "22813a9acef54acea83bdf5c3931ca74": {
-      "id": "22813a9acef54acea83bdf5c3931ca74",
-      "name": "tipo_de_servico",
-      "label": "Tipo De Servico",
-      "varType": "reference",
-      "table": "x_snc_ferias_agendamento_de_ferias",
-      "category": "vaInputs"
-    },
-    "8dd065b8aabf45b0adc31952f8687f06": {
-      "id": "8dd065b8aabf45b0adc31952f8687f06",
-      "name": "servico",
-      "label": "Servico",
+    "652a1644a8bf4ac8a0f91acbd7fc1ab8": {
+      "id": "652a1644a8bf4ac8a0f91acbd7fc1ab8",
+      "name": "cria_request",
+      "label": "Cria Request",
       "varType": "reference",
       "table": "x_snc_ferias_agendamento_de_ferias",
       "inactive": false,
+      "category": "vaInputs"
+    },
+    "7a3f46debb3d4bd884456839dbc9ad61": {
+      "id": "7a3f46debb3d4bd884456839dbc9ad61",
+      "name": "tipo_de_servi_o",
+      "label": "Tipo De Serviço",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Férias",
+          "value": "1"
+        },
+        {
+          "label": "Atestado",
+          "value": "2",
+          "checked": true
+        },
+        {
+          "label": "Licença",
+          "value": "3",
+          "checked": true
+        }
+      ],
       "category": "vaInputs"
     }
   }
@@ -617,14 +677,14 @@
         <sys_created_on>2020-08-14 10:39:45</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>8f8b65f21ba6d450ae402f092a4bcbe9</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Pedido de Ferias, Atestado e Falta</sys_name>
         <sys_package display_value="Ferias" source="x_snc_ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ferias">9a4648d11ba2dc10ae402f092a4bcba6</sys_scope>
         <sys_update_name>sys_cb_topic_8f8b65f21ba6d450ae402f092a4bcbe9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-14 10:57:10</sys_updated_on>
+        <sys_updated_on>2020-08-14 21:12:13</sys_updated_on>
         <variables/>
     </sys_cb_topic>
     <sys_variable_value action="delete_multiple" query="document_key=8f8b65f21ba6d450ae402f092a4bcbe9"/>

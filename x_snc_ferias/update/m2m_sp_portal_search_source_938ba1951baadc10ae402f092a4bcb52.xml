@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_search_source">
     <m2m_sp_portal_search_source action="INSERT_OR_UPDATE">
         <order>200</order>
-        <sp_portal display_value="Banpará- Portal de Serviços">a7ba61551baadc10ae402f092a4bcb3f</sp_portal>
+        <sp_portal display_value="Caixa- Portal de Serviços">a7ba61551baadc10ae402f092a4bcb3f</sp_portal>
         <sp_search_source display_value="Knowledge Bases">c6170ae86721220023c82e08f585efe6</sp_search_source>
         <sys_class_name>m2m_sp_portal_search_source</sys_class_name>
         <sys_created_by>admin</sys_created_by>

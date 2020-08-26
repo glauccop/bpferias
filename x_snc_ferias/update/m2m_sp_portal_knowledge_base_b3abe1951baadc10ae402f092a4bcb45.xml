@@ -3,7 +3,7 @@
         <active>true</active>
         <kb_knowledge_base display_value="IT">a7e8a78bff0221009b20ffffffffff17</kb_knowledge_base>
         <order>100</order>
-        <sp_portal display_value="Banpará- Portal de Serviços">a7ba61551baadc10ae402f092a4bcb3f</sp_portal>
+        <sp_portal display_value="Caixa- Portal de Serviços">a7ba61551baadc10ae402f092a4bcb3f</sp_portal>
         <sys_class_name>m2m_sp_portal_knowledge_base</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-08-09 18:49:28</sys_created_on>

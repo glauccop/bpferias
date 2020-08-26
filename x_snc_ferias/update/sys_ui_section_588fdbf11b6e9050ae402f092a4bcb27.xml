@@ -4,13 +4,13 @@
             <element>watch_list</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-08-11 16:59:32</sys_created_on>
-            <sys_id>f0b52ff91b6e9050ae402f092a4bcb85</sys_id>
+            <sys_created_on>2020-08-14 20:06:40</sys_created_on>
+            <sys_id>df4d6f321be21850ae402f092a4bcb70</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Nota Gerencial" display_value="Nota Gerencial" name="x_snc_ferias_agendamento_de_ferias" sys_domain="global" view="Default view">588fdbf11b6e9050ae402f092a4bcb27</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-11 16:59:32</sys_updated_on>
+            <sys_updated_on>2020-08-14 20:06:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>.split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-08-11 16:59:32</sys_created_on>
-            <sys_id>78b52ff91b6e9050ae402f092a4bcb85</sys_id>
+            <sys_created_on>2020-08-14 20:06:40</sys_created_on>
+            <sys_id>574d6f321be21850ae402f092a4bcb71</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Nota Gerencial" display_value="Nota Gerencial" name="x_snc_ferias_agendamento_de_ferias" sys_domain="global" view="Default view">588fdbf11b6e9050ae402f092a4bcb27</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-11 16:59:32</sys_updated_on>
+            <sys_updated_on>2020-08-14 20:06:40</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>work_notes_list</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-08-11 16:59:32</sys_created_on>
-            <sys_id>fcb52ff91b6e9050ae402f092a4bcb85</sys_id>
+            <sys_created_on>2020-08-14 20:06:40</sys_created_on>
+            <sys_id>db4d6f321be21850ae402f092a4bcb71</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Nota Gerencial" display_value="Nota Gerencial" name="x_snc_ferias_agendamento_de_ferias" sys_domain="global" view="Default view">588fdbf11b6e9050ae402f092a4bcb27</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-11 16:59:32</sys_updated_on>
+            <sys_updated_on>2020-08-14 20:06:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,57 +46,43 @@
             <element>.end_split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-08-11 16:59:32</sys_created_on>
-            <sys_id>74b52ff91b6e9050ae402f092a4bcb86</sys_id>
+            <sys_created_on>2020-08-14 20:06:40</sys_created_on>
+            <sys_id>534d6f321be21850ae402f092a4bcb72</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Nota Gerencial" display_value="Nota Gerencial" name="x_snc_ferias_agendamento_de_ferias" sys_domain="global" view="Default view">588fdbf11b6e9050ae402f092a4bcb27</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-11 16:59:32</sys_updated_on>
+            <sys_updated_on>2020-08-14 20:06:40</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>work_notes</element>
+            <element>comments</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-08-11 16:59:32</sys_created_on>
-            <sys_id>f8b52ff91b6e9050ae402f092a4bcb86</sys_id>
+            <sys_created_on>2020-08-14 20:06:40</sys_created_on>
+            <sys_id>d74d6f321be21850ae402f092a4bcb72</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Nota Gerencial" display_value="Nota Gerencial" name="x_snc_ferias_agendamento_de_ferias" sys_domain="global" view="Default view">588fdbf11b6e9050ae402f092a4bcb27</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-11 16:59:32</sys_updated_on>
+            <sys_updated_on>2020-08-14 20:06:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>comments</element>
+            <element>activity.xml</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-08-11 16:59:32</sys_created_on>
-            <sys_id>70b52ff91b6e9050ae402f092a4bcb87</sys_id>
+            <sys_created_on>2020-08-14 20:06:40</sys_created_on>
+            <sys_id>5f4d6f321be21850ae402f092a4bcb72</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
             <sys_ui_section caption="Nota Gerencial" display_value="Nota Gerencial" name="x_snc_ferias_agendamento_de_ferias" sys_domain="global" view="Default view">588fdbf11b6e9050ae402f092a4bcb27</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-11 16:59:32</sys_updated_on>
+            <sys_updated_on>2020-08-14 20:06:40</sys_updated_on>
             <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>comments_and_work_notes</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-08-11 16:59:32</sys_created_on>
-            <sys_id>f4b52ff91b6e9050ae402f092a4bcb87</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Nota Gerencial" display_value="Nota Gerencial" name="x_snc_ferias_agendamento_de_ferias" sys_domain="global" view="Default view">588fdbf11b6e9050ae402f092a4bcb27</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-11 16:59:32</sys_updated_on>
-            <sys_user/>
-            <type/>
+            <type>formatter</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Nota Gerencial</caption>
